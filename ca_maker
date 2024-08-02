@@ -25,7 +25,7 @@ encryption=''
 # Multiple DNS names and IP Addresses. Note mbedtls can't currently use data from IP fields, 
 # but can read an IP from a DNS field, to the same effect.
 # Use as many unique names as you need, in the format DNS.1, DNS.2, DNS.3, IP.1, IP.2 etc.
-subjectAltName='DNS.1:server_name,DNS.2:server_name.example.com,DNS.3:192.168.1.1,IP.1:192.168.1.1'
+# subjectAltName='DNS.1:server_name,DNS.2:server_name.example.com,DNS.3:192.168.1.1,IP.1:192.168.1.1'
 
 # NOTE: If you need to create one or more client Keys and Certs in either PEM or DER format,
 # you can call the 'client_maker' script one or more times at the bottom of this script, so 
